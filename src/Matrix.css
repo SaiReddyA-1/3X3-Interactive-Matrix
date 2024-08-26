@@ -1,0 +1,58 @@
+.matrix-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.matrix-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box.green {
+  background-color: #4caf50;
+}
+
+.box.orange {
+  background-color: #ff9800;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #1976d2;
+}
