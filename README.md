@@ -55,14 +55,6 @@ You can view the live demo of the application by visiting the following URL:
 
 Feel free to fork the repository and make contributions. If you find any issues or have suggestions for improvements, please open an issue or a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 
-For any questions or further information, you can reach out to [Sai Reddy](mailto:bhargavi.b0527@gmail.com).
-
----
-
-Feel free to adjust any details or add more information as needed!
+For any questions or further information, you can reach out to [Sai Reddy](mailto:saireddy.annamareddy@gmail.com).
